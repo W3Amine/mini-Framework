@@ -1,0 +1,146 @@
+echo '<br>';
+echo '<br>';
+
+// echo User::makeDB();
+echo '<br>';
+echo '<br>';
+echo '<br>';
+// dump(User::connect());
+
+// echo Post::makeDB();
+echo '<br>';
+echo '<br>';
+// dump(Post::connect());
+
+// echo Post::connect();
+echo '<br>';
+echo '<br>';
+
+// $post = new Post();
+// $user = new User();
+
+// Post::connect();
+// dump(Post::delete()->where('id', 6)->run());
+
+
+// $columns = ["sara" , "amine" , "bkhit" , "zine"];
+// $cols = implode(' , '  , $columns);
+// echo $cols ;
+
+
+
+//  dump(Post::select(['Price','city','title','Img_Url'])->join('galerie')->where('annonce-id', 'galerie.announceid')->get());
+
+// dump(Post::select()->all());
+
+
+
+// dump( User::insert([
+//      	"Img_Url" => "SOLICIDEEAAAAAAAAAAAAAAAAA.PNG",
+//      	"Img_type" => 'principaleOOOOOOO' ,
+//      	"announceid" => 10,
+// ])->run() );
+
+
+// echo $_SERVER['DOCUMENT_ROOT'];
+// $cols = ['username' , 'email' , 'id' , 'name' , 'avatar'];
+
+
+// foreach ($cols as $key => $value) {
+//     $cols[$key] = $value . " =  ? " ;
+// }
+
+// $cols = (count($cols) != 1) ? implode(' , '  , $cols) : $cols[0];
+//  echo $cols ;
+
+
+
+// dump( Post::update([
+//      	"firstname" => "andro",
+//      	"lastname" => 'tate' ,
+//      	"Email" => "andrew@cobratate.com",
+// ])->where('client_id', 45 )->run() );
+
+
+echo '<br>';
+echo '<br>';
+
+// echo $user->connect();
+echo '<br>';
+echo '<br>';
+echo '<br>';
+
+// echo $post->connect();
+echo '<br>';
+echo '<br>';
+
+// echo Post::get_child_class();
+// echo User::get_child_class();
+
+
+
+// $app->session->setFlash('errors' , ['username' => ['XXXXXX','eeeeeee']]);
+// $app->session->setFlash('old' , ['email' => 'dfdfdf@fdfdf.dfdf' , 'name' => 'gggggggg']);
+
+
+
+// var_dump($app->session->getFlash('errors'));
+
+// dump($_SESSION);
+
+//$_ENV['APP_NAME'] = "hacker";
+
+
+
+
+
+
+// var_dump(Route::$routes['get']['/']());
+
+
+// echo '<pre>';
+// print_r($_SERVER);
+// echo '</pre>';
+
+// echo $_SERVER['REQUEST_URI'];
+
+
+// $route = new Route(new Request , new Response);
+
+
+// dump($route->request->path());
+
+
+// $route->resolve();
+
+
+//  echo env('APP_NAME',"lol");
+
+
+//echo getenv("APP_NAME");
+
+// var_dump($_ENV);
+
+
+
+// $str = 'sdfsdfsdf/ff/ggg/';
+// echo (str_ends_with($str, '/')) ? rtrim($str, "/") : $str  ;
+
+
+
+
+// echo config::get('view' , 'path');
+
+
+
+// $dataa = config::get('view' , 'path');
+// echo $dataa;
+
+
+
+
+// $ddg = config("view" , "path" );
+
+
+
+// echo strval($ddg);
